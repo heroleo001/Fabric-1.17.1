@@ -32,6 +32,8 @@ public class ModBlocks {
                     .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
 
+
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(HeroTech.MOD_ID, name), block);
