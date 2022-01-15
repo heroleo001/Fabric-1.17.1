@@ -1,0 +1,10 @@
+{
+  "item.herotech.tin_ingot": "Tin Ingot",
+  "item.herotech.tin_nugget": "Tin Nugget",
+  "item.herotech.raw_tin": "Raw Tin",
+
+  "block.herotech.tin_block": "Tin Block",
+  "block.herotech.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.herotech.raw_tin_block": "Raw Tin Block",
+  "block.herotech.tin_ore": "Tin Ore"
+}
