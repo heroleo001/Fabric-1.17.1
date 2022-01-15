@@ -6,5 +6,7 @@
   "block.herotech.tin_block": "Tin Block",
   "block.herotech.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.herotech.raw_tin_block": "Raw Tin Block",
-  "block.herotech.tin_ore": "Tin Ore"
+  "block.herotech.tin_ore": "Tin Ore",
+
+  "itemGroup.herotech.herotech_group": "HeroTech"
 }

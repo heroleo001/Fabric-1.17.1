@@ -2,6 +2,7 @@ package net.leo.herotech.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.leo.herotech.HeroTech;
+import net.leo.herotech.util.ModItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -11,13 +12,13 @@ public class ModItems {
 
 
     public static final Item TIN_INGOT = registerItem("tin_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HEROTECH_GROUP)));
 
     public static final Item TIN_NUGGET = registerItem("tin_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HEROTECH_GROUP)));
 
     public static final Item RAW_TIN = registerItem("raw_tin",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HEROTECH_GROUP)));
 
 
 
