@@ -2,6 +2,7 @@ package net.leo.herotech.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.leo.herotech.HeroTech;
+import net.leo.herotech.item.custom.DrillItem;
 import net.leo.herotech.util.ModItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -19,6 +20,9 @@ public class ModItems {
 
     public static final Item RAW_TIN = registerItem("raw_tin",
             new Item(new FabricItemSettings().group(ModItemGroup.HEROTECH_GROUP)));
+
+    public static final Item DRILL = registerItem("drill",
+            new DrillItem(new FabricItemSettings().group(ModItemGroup.HEROTECH_GROUP)));
 
 
 
